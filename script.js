@@ -11,8 +11,8 @@
                     var longitude = position.coords.longitude;
 
                     // Display the latitude and longitude on the web page
-                    document.getElementById("latitude").textContent = latitude;
-                    document.getElementById("longitude").textContent = longitude;
+                    // document.getElementById("latitude").textContent = latitude;
+                    // document.getElementById("longitude").textContent = longitude;
                     document.cookie=`latitude1=${latitude}`;
                     document.cookie=`longitude1=${longitude}`;
 
