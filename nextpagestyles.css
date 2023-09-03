@@ -1,0 +1,82 @@
+*{
+  padding: 0;
+  margin: 0;
+  background-color: #360369;
+
+}
+
+.topcontainer{
+  margin-left: 30px;
+}
+
+.topcontainer h1{
+  color: #FFF;
+font-family: Montserrat;
+font-size: 54px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 15px 0px;
+}
+
+
+.topcontainer>p{
+  color: #FFF;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+padding: 30px 10px 0px 0px;
+margin-bottom: 30px;
+}
+
+.latitudediv{
+  width: 380px;
+height: 87px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #270846;
+display:flex;
+align-items: center;
+justify-content:center;
+}
+
+.latitudediv p{
+  color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: transparent;
+}
+
+
+.longitudediv{
+  width: 380px;
+height: 87px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #270846;
+display:flex;
+align-items: center;
+justify-content:center;
+}
+
+.longitudediv p{
+  color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: transparent;
+}
+
+.coordinates{
+  display: flex;
+  gap: 20px;
+}
